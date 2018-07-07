@@ -1,12 +1,12 @@
-# Форматирование JSON
+# Prettify JSON
 
-Программа на входе принимает путь до файла JSON и выводит в консоль его содержимое в более удобном для читателя виде.   
-Пример исходного файла:
+The program takes a path to the JSON file and print it in cosole in more readable view.
+Original file examle:
 ```javascript
 [{"Id":"79742784-9ef3-4543-bc98-a219a8903c18","Number":1,"Cells":{"global_id":14371450,"Name":"Ароматный Мир","IsNetObject":"да","OperatingCompany":"Ароматный Мир","TypeService":"реализация продовольственных товаров","Address":"улица Академика Павлова, дом 10"}}]
 ```
 
-Пример измененного файла
+Printed version:
 ```javascript
 [
     {
@@ -31,7 +31,7 @@ Example of script launch on Linux, Python 3.5:
 ```bash
 
 $ python pprint_json.py <path to file>
-#пример вывода текста
+#output example
 [
     {
         "Cells": {
