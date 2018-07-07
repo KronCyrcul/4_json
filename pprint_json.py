@@ -11,8 +11,8 @@ def load_data(filepath):
         return None
 
 
-def pretty_print_json(json_string):
-    return json.dumps(json_string, separators=(",", ":"), indent=4,
+def pretty_print_json(json_content):
+    return json.dumps(json_content, separators=(",", ":"), indent=4,
         sort_keys=True, ensure_ascii=False)
 
 
